@@ -36,7 +36,7 @@ The goal of `hypo71py` is to provide a **standalone, modern, and ObsPy-native** 
 git clone https://github.com/<your-org>/hypo71py.git
 cd hypo71py
 pip install -e .
-
+```
 
 ---
 
