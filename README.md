@@ -16,11 +16,9 @@ The goal of `hypo71py` is to provide a **standalone, modern, and ObsPy-native** 
 
 `hypo71py` implements the **Geiger-style iterative least-squares inversion**
 
-- the **Geiger-style iterative least-squares inversion** implemented in HYPO71
 - travel times and derivatives in a **1-D layered crustal velocity model**
 - fast execution suitable for catalog-scale relocation
 
-This package intentionally **does not** include stochastic or global search methods (e.g. basin hopping). Those are better developed as separate tools that can build on this numerical core.
 
 ---
 
@@ -49,7 +47,7 @@ This makes the code:
 
 ### 2. `model/` — Domain Objects (Pythonic)
 
-The `model` layer provides structured, Pythonic representations of the domain concepts used by HYPO71:
+The `model` layer provides structured several lightweight classes used by HYPO71:
 
 - `Station`, `PhasePick`, `StationPhases`
 - `CrustalVelocityModel`
@@ -96,7 +94,6 @@ This makes `hypo71py` immediately compatible with:
 - Example notebooks for real and synthetic data
 
 
-
 ---
 
 ## 📜 License and Acknowledgements
@@ -104,7 +101,11 @@ This makes `hypo71py` immediately compatible with:
 This package builds on the original HYPO71 algorithm and legacy Fortran implementations.  
 Credit is due to the original authors of HYPO71 and to contributors to earlier Python ports, including *robspy*.
 
-Primary author:
+
 - **Kris Vanneste**
-Code reorgaisation and Obspy interface  
+
+Primary author of core and model elements (https://gitlab-as.oma.be/kris/robspy)
+
 - **Dan Sandiford**
+
+Code reorganisation and Obspy interface:  
