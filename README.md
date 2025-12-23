@@ -19,6 +19,24 @@ The goal of `hypo71py` is to provide a **standalone, modern, and ObsPy-native** 
 - travel times and derivatives in a **1-D layered crustal velocity model**
 - fast execution suitable for catalog-scale relocation
 
+## Installation
+
+### Dependencies
+
+- Python ≥ 3.9  
+- numpy  
+- scipy  
+- obspy  
+
+(Optional: matplotlib, pandas, Fortran compiler for f2py speedups)
+
+### Install (editable)
+
+```bash
+git clone https://github.com/<your-org>/hypo71py.git
+cd hypo71py
+pip install -e .
+
 
 ---
 
