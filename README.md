@@ -10,14 +10,9 @@ The package is derived from earlier work in the *Redbelly* project and ultimatel
 
 The goal of `hypo71py` is to provide a **standalone, modern, and ObsPy-native** implementation of HYPO71 that can be used directly in research workflows, notebooks, and automated catalog pipelines.
 
+
 ---
-
-## Scope and Intent
-
-`hypo71py` implements the **Geiger-style iterative least-squares inversion**
-
-- travel times and derivatives in a **1-D layered crustal velocity model**
-- fast execution suitable for catalog-scale relocation
+  
 
 ## Installation
 
@@ -37,6 +32,15 @@ git clone https://github.com/<your-org>/hypo71py.git
 cd hypo71py
 pip install -e .
 ```
+
+---
+
+## Scope and Intent
+
+`hypo71py` implements the **Geiger-style iterative least-squares inversion**
+
+- travel times and derivatives in a **1-D layered crustal velocity model**
+- fast execution suitable for catalog-scale relocation
 
 ---
 
@@ -99,7 +103,6 @@ This makes `hypo71py` immediately compatible with:
 - SeisBench / PyOcto outputs
 - downstream catalog processing and QC tools
 
----
 
 
 
