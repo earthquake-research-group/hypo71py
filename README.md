@@ -12,7 +12,7 @@ The goal of `hypo71py` is to provide a **standalone, modern, and ObsPy-native** 
 
 ---
 
-## 🎯 Scope and Intent
+## Scope and Intent
 
 `hypo71py` implements the **Geiger-style iterative least-squares inversion**
 
@@ -40,7 +40,7 @@ pip install -e .
 
 ---
 
-## 🧠 Design Philosophy
+## Design Philosophy
 
 The codebase is structured around a clear separation of concerns:
 
@@ -101,20 +101,11 @@ This makes `hypo71py` immediately compatible with:
 
 ---
 
-## ✨ Current Features
-
-- Local earthquake location from P and S arrival times
-- 1-D layered velocity model support
-- Iterative Geiger inversion with robust weighting
-- Optional Fortran acceleration via `f2py`
-- Clean ObsPy `Event` / `Origin` integration
-- Catalog-scale relocation with failure handling
-- Example notebooks for real and synthetic data
 
 
 ---
 
-## 📜 License and Acknowledgements
+##  Acknowledgements
 
 This package builds on the original HYPO71 algorithm and legacy Fortran implementations.  
 Credit is due to the original authors of HYPO71 and to contributors to earlier Python ports, including *robspy*.
