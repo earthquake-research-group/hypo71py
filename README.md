@@ -6,7 +6,7 @@
 
 **hypo71py** is a Python implementation of the classic **HYPO71** earthquake location algorithm, providing a fast, deterministic, and operationally proven method for local earthquake hypocenter determination.
 
-The package is derived from earlier work in the *Redbelly* project and ultimately from legacy HYPO71 Fortran code, with original work by **Kris Vanneste** and and adaptations by **Dan Sandiford**.
+The package is derived from legacy HYPO71 Fortran code, with the original Python rewriting by **Kris Vanneste** and minor adaptations by **Dan Sandiford**.
 
 The goal of `hypo71py` is to provide a **standalone, modern, and ObsPy-native** implementation of HYPO71 that can be used directly in research workflows, notebooks, and automated catalog pipelines.
 
